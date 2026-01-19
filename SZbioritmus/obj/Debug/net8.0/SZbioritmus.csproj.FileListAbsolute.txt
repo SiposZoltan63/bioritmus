@@ -1,0 +1,14 @@
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\bin\Debug\net8.0\SZbioritmus.exe
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\bin\Debug\net8.0\SZbioritmus.deps.json
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\bin\Debug\net8.0\SZbioritmus.runtimeconfig.json
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\bin\Debug\net8.0\SZbioritmus.dll
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\bin\Debug\net8.0\SZbioritmus.pdb
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.AssemblyInfoInputs.cache
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.AssemblyInfo.cs
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.csproj.CoreCompileInputs.cache
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.dll
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\refint\SZbioritmus.dll
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.pdb
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.genruntimeconfig.cache
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\ref\SZbioritmus.dll
