@@ -11,7 +11,6 @@ class Program
         Random rnd = new Random();
         string path = Path.Combine(AppContext.BaseDirectory, "bioritmus.sql");
 
-        // Férfi nevek listája
         string[] ferfiNevek = {
             "Aba", "Ábel", "Ádám", "Adolf", "Adorján", "Ágoston", "Ahmed", "Ákos", "Aladár", "Albert",
             "Alex", "Ali", "Álmos", "Ambrus", "Andor", "András", "Antal", "Anton", "Áron", "Árpád",
@@ -26,7 +25,6 @@ class Program
             "Szabolcs", "Szilárd", "Tamás", "Tibor", "Tivadar", "Viktor", "Vilmos", "Zoltán", "Zsolt", "Zsombor"
         };
 
-        // Női nevek listája (ugyanolyan formában hozzáadva)
         string[] noiNevek = {
             "Abigél", "Adél", "Adrienn", "Ági", "Ágnes", "Alexandra", "Alíz", "Amália", "Amanda", "Andrea",
             "Angéla", "Anikó", "Anita", "Anna", "Annamária", "Antónia", "Aranka", "Barbara", "Beáta", "Beatrix",
@@ -70,8 +68,6 @@ class Program
 
             for (int sorszam = 0; sorszam <= 6512; sorszam++)
             {
-                // Véletlenszerűen döntünk a nemről (0 vagy 1)
-                // Ha 0 -> Férfi, Ha 1 -> Nő
                 bool isNo = rnd.Next(2) == 1;
 
                 string nev;
@@ -80,12 +76,12 @@ class Program
                 if (isNo)
                 {
                     nev = noiNevek[rnd.Next(noiNevek.Length)];
-                    nemKod = "N"; // Nő
+                    nemKod = "N";
                 }
                 else
                 {
                     nev = ferfiNevek[rnd.Next(ferfiNevek.Length)];
-                    nemKod = "F"; // Férfi
+                    nemKod = "F"; 
                 }
 
                 DateTime szulDatum = RandomSzuletesiDatum(rnd);
@@ -96,7 +92,6 @@ class Program
                 double erzelmi = SzamolKepletSzerint(n, 28);
                 double szellemi = SzamolKepletSzerint(n, 33);
 
-                // SQL generálás: 'nem' mező dinamikusan beillesztve a {2} helyre
                 string sqlRow = string.Format(CultureInfo.InvariantCulture,
                     "INSERT INTO Bioritmus (sorszam, keresztnev, nem, szuletesi_datum, fizikai_ertek, erzelmi_ertek, szellemi_ertek, rogzitve) " +
                     "VALUES ({0}, '{1}', '{2}', '{3:yyyy-MM-dd}', {4:0.00}, {5:0.00}, {6:0.00}, '{7:yyyy-MM-dd}');",
@@ -104,7 +99,6 @@ class Program
 
                 sw.WriteLine(sqlRow);
 
-                // Konzolra írás (csak minden 100-adikat írjuk ki, hogy gyorsabban fusson, de látszódjon a haladás)
                 if (sorszam % 100 == 0)
                 {
                     Console.WriteLine($"#{sorszam} | {nev} ({nemKod}) | {n} napos");
