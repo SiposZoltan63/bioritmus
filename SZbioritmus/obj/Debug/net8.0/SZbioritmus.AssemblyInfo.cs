@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SZbioritmus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b06e9014a9f06c8329404d39687d301150456dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("SZbioritmus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SZbioritmus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

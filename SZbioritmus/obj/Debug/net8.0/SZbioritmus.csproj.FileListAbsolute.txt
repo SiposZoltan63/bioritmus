@@ -12,3 +12,4 @@ C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\refint\SZb
 C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.pdb
 C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.genruntimeconfig.cache
 C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\ref\SZbioritmus.dll
+C:\Users\siposz\source\repos\SZbioritmus\SZbioritmus\obj\Debug\net8.0\SZbioritmus.sourcelink.json
